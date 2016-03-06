@@ -1,0 +1,183 @@
+
+/*
+
+CSS for Rununu landing page
+
+
+*/
+
+body{
+
+	font-family: 'Lato', sans-serif;
+}
+
+#rununu_navbar{
+
+	padding-top: 10px;
+	padding-bottom: 15px;
+	background-color: #FFF;
+	margin-bottom: 0px !important;
+
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #2ecc71;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	border-bottom-style: solid;
+    border-bottom-color: #2ecc71;
+}
+
+.navbar-brand{
+	    padding-top: 0px;
+}
+
+#rununu_carousel{
+	height: 450px;
+	
+}
+
+#pay_title{
+
+	color: #2ecc71;
+
+}
+
+#main_caption{
+
+	font-size: 35px;
+	color: #FFF;
+	text-align: center;
+	
+
+}
+
+#main_intro{
+	height: 80px;
+	background:#2ecc71;
+	color:#FFF;
+}
+
+
+
+.item{
+	height: 450px;
+}
+
+#intro_slider{
+
+	  background:#FCFCFC;
+	  background-size: cover;
+}
+
+#intro_item{
+
+	background: url('../images/bike2.jpg');
+	background-size: 100% 100%;
+	height: 300px;
+
+}
+
+.repay{
+	color: #FFF;
+	text-align: center;
+
+}
+
+.item_content{
+
+	background: rgba(0,0,0,0.6);
+	margin-top: 40%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+
+}
+
+#minibus{
+
+	background: url('../images/minbus.jpg');
+	background-size: 100% 100%;
+	height: 310px;
+
+}
+#tuktuk{
+
+	background: url('../images/tuktuk.jpg');
+	background-size: 100% 100%;
+
+	height: 310px;
+
+
+}
+#taxi{
+
+	background: url('../images/taxi.jpg');
+	background-size: 100% 100%;
+
+	height: 310px;
+
+
+}
+#house{
+
+	background: url('../images/house.jpg');
+	background-size: 100% 100%;
+
+	height: 310px;
+
+
+}
+
+#details{
+
+	color: #FFF;
+	text-align: center;
+	background:#2ecc71;
+	height: 310px;
+
+}
+
+#extra_details{
+	padding-top: 15px;
+}
+
+.paid_up{
+
+	font-size: 70px;
+}
+
+#how_to_pay{
+	padding-top: 3%;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+footer {
+    min-height: 200px;
+    margin-top: 15px;
+    padding-top: 25px;
+    text-align: center;
+    background-color: #2E2E2E;
+}
+
+#contactus {
+    color: #FFF;
+}
+
+#paybill_details{
+	color: #FFF;
+}
+
+#social_media .fa{
+	color: #2ecc71;
+}
+
+#pay_btn{
+	color: #FFF !important;
+}
+
+#pay_btn:hover{
+	color: #2ecc71 !important;
+}

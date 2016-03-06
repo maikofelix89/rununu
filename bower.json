@@ -1,0 +1,22 @@
+{
+  "name": "rununu",
+  "authors": [
+    "maikofelix89 <maikofelix89@gmail.com>"
+  ],
+  "description": "rununu sacco site",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.1",
+    "font-awesome": "fontawesome#~4.5.0"
+  }
+}
