@@ -17,6 +17,7 @@ body{
 	padding-bottom: 15px;
 	background-color: #FFF;
 	margin-bottom: 0px !important;
+	border-bottom: none;
 
 
 }
@@ -56,15 +57,13 @@ body{
 
 #main_intro{
 	height: 80px;
-	background:#2ecc71;
-	color:#FFF;
+	background:#FFF;
+	color:#2ecc71;
 }
 
 
 
-.item{
-	height: 450px;
-}
+
 
 #intro_slider{
 
@@ -76,7 +75,13 @@ body{
 
 	background: url('../images/bike2.jpg');
 	background-size: 100% 100%;
-	height: 300px;
+	height: 30%;
+
+}
+
+#myCarousel{
+
+	height: 30%;
 
 }
 
@@ -93,13 +98,16 @@ body{
 	padding-top: 1%;
 	padding-bottom: 1%;
 
+
+
 }
 
 #minibus{
 
 	background: url('../images/minbus.jpg');
 	background-size: 100% 100%;
-	height: 310px;
+	height: 30%;
+
 
 }
 #tuktuk{
@@ -107,7 +115,7 @@ body{
 	background: url('../images/tuktuk.jpg');
 	background-size: 100% 100%;
 
-	height: 310px;
+	height: 30%;
 
 
 }
@@ -116,7 +124,7 @@ body{
 	background: url('../images/taxi.jpg');
 	background-size: 100% 100%;
 
-	height: 310px;
+	height: 30%;
 
 
 }
@@ -125,7 +133,7 @@ body{
 	background: url('../images/house.jpg');
 	background-size: 100% 100%;
 
-	height: 310px;
+	height: 30%;
 
 
 }
@@ -135,7 +143,7 @@ body{
 	color: #FFF;
 	text-align: center;
 	background:#2ecc71;
-	height: 310px;
+	height: 30%;
 
 }
 
@@ -180,4 +188,126 @@ footer {
 
 #pay_btn:hover{
 	color: #2ecc71 !important;
+}
+
+#about_intro , #individual_intro{
+
+	background: url('../images/green.jpg');
+	background-size: cover;
+	height:200px;
+}
+
+#about_header{
+
+color: #FFF;
+padding-top: 2.5%;
+
+}
+#about_header h2{
+	font-size: 70px;
+}
+#about_content,#individual_content{
+	padding-top: 6%;
+	padding-bottom: 6.5%;
+}
+#asset_box{
+
+	padding-top: 1%;
+	padding-bottom: 3%;
+}
+#emergency{
+	padding-top: 3%;
+}
+
+
+
+
+.my_caption{
+	background-color: rgba(0,0,0,0.6);
+	color: #FFF;
+}
+
+#bike_slide{
+	height:30%%;
+}
+
+.carousel{
+	height: 30%;
+}
+
+.item{
+	height: 300px;
+}
+
+.item img{
+	height: 100% !important;
+	width:100%;
+}
+
+.asset_item{
+	height: 30%;
+}
+
+
+
+
+
+
+
+
+#bike_item2{
+
+	background: url('../images/bike3.jpg');
+	background-size: 100% 100%;
+	height:100%;
+	
+
+
+}
+#emergency_left{
+
+	background: url('../images/emergency.jpg');
+	background-size:100% 100%;
+	height:300px;
+
+}
+
+#emergency_right{
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+	text-align: center;
+}
+#pronto_right{
+
+	background: url('../images/pronto.jpg');
+	background-size:100% 100%;
+	height:300px;
+
+}
+#pronto_left{
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+	text-align: center;
+}
+
+#pronto_row{
+	padding-top: 3%;
+	background-color: #FCFCFC;
+}
+#emergency_row{
+	padding-bottom: 3%;
+	padding-top: 3%;
+	
+}
+
+#procedure{
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+#main_intro{
+	background: url('../images/green.jpg');
+	color: #FFF;
+	
 }
